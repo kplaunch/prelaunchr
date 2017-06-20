@@ -9,6 +9,6 @@ ActiveAdmin.register User do
     column :updated_at
   end
 
-  actions :index, :show
+  actions :index, :show, :destroy
 
 end
